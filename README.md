@@ -22,7 +22,7 @@ If you'd like to create a systemd service, pop it into /etc/systemd/system/ as s
     After=network-online.target
 
     [Service]
-    ExecStart=python /home/username/adafruit-moisture-sensor-mqtt.py
+    ExecStart=python /home/username/main.py
     Type=simple
 
     [Install]
